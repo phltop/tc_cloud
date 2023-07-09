@@ -79,5 +79,10 @@ public class CounterController {
       return ApiResponse.error("参数action错误");
     }
   }
-  
+
+  @GetMapping("/PrintName")
+   String getName(){
+      return "Hello Tencent Cloud 下周来出摊？";
+   }
+
 }
